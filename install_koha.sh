@@ -1,4 +1,16 @@
 #!/bin/bash
+
+printf "
+Powered by:
+
+  ___  _      ___  _      
+ | _ \(_) __ | __|(_)__ __
+ |   /| |/ _|| _| | |\ \ /
+ |_|_\|_|\__||_|  |_|/_\_\
+
+"
+
+
 #Install script KOHA
 sudo wget -q -O- https://debian.koha-community.org/koha/gpg.asc | sudo apt-key add -
 echo 'deb http://debian.koha-community.org/koha stable main' | sudo tee /etc/apt/sources.list.d/koha.list
