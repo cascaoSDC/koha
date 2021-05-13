@@ -1,14 +1,6 @@
 #!/bin/bash
 
-printf "
-Powered by:
-
-  ___  _      ___  _      
- | _ \(_) __ | __|(_)__ __
- |   /| |/ _|| _| | |\ \ /
- |_|_\|_|\__||_|  |_|/_\_\
-
-"
+printf "Powered by None"
 
 
 #Install script KOHA
